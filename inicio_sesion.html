@@ -1,0 +1,154 @@
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="inicio_sesion.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="/Bootstrap/js/bootstrap.min.js"></script>
+        <script src="inicio_sesion.js"></script>
+        <title>Página de inicio de sesión</title>
+    </head>
+</head>
+
+<body>
+    <!-- Inicio del bloque header -->
+    <header class="container-fluid bg-light" id="">
+        <div class="container text-center  style='width: 100%;'">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo1.png" width="60" height="60" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <div class="row">
+                <div class="col">
+                    <a class="navbar-brand" href="index.html" id="btnB" title="Buscador">Buscador</a>
+                </div>
+                <div class="col">
+                    <a class="navbar-brand" href="inicio_sesion.html" id="btnB" title="Buscador">Inicio Sesión</a>
+                </div>
+                <div class="col">
+                    <a class="navbar-brand" href="#" id="btnB" title="Buscador">Contacta con nosotros</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    
+    <div class="form-body-registro">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Registrese</h3>
+                        <p>Rellene los campos abajo indicados.</p>
+                        <form class="requires-validation" novalidate>
+
+                            <div class="col-md-12">
+                               <input class="form-control" type="text" name="name" placeholder="Nombre" required>
+                               <div class="valid-feedback">Username field is valid!</div>
+                               <div class="invalid-feedback">Username field cannot be blank!</div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <input class="form-control" type="email" name="email" placeholder="Dirección email" required>
+                                 <div class="valid-feedback">Email field is valid!</div>
+                                 <div class="invalid-feedback">Email field cannot be blank!</div>
+                            </div>
+
+                           <div class="col-md-12">
+                                <select class="form-select mt-3" required>
+                                      <option selected disabled value="">Preferencias</option>
+                                      <option value="jweb">Senderismo Recreativo</option>
+                                      <option value="sweb">Senderismo de montaña</option>
+                                      <option value="pmanager">Senderismo en cascadas</option>
+                                      <option value="pmanager">Senderismo de larga distancia</option>
+                               </select>
+                           </div>
+
+
+                           <div class="col-md-12">
+                              <input class="form-control" type="password" name="password" placeholder="Password" required>
+                           </div>
+
+
+                           <div class="col-md-12 mt-3">
+                            <label class="mb-3 mr-1" for="gender">Género: </label>
+
+                            <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-success" for="male">Hombre</label>
+
+                            <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-success" for="female">Mujer</label>
+
+                            <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-success" for="secret">Secret</label>
+                            </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="i" required>
+                          <label class="form-check-label">Confirmo que todos los datos introducidos son correctos.</label>
+                        </div>
+                  
+
+                            <div class="form-button mt-3">
+                                <button id="registro" type="button" class="btn btn-primary">Registrate</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- menu de inicio -->
+    <div class="form-body-inicio">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Inicio de sesión</h3>
+                        <p>Encantado de volver a verte.</p>
+                        <form class="requires-validation" novalidate>
+
+                            <div class="col-md-12">
+                               <input class="form-control" type="text" name="name" placeholder="Ingresa tu usuario o email" required>
+                            </div>
+
+                           <div class="col-md-12">
+                              <input class="form-control" type="password" name="password" placeholder="Contraseña" required>
+                           </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="para_registrarte" required>
+                          <label class="form-check-label">Si aún no estas registrado, has click aquí.</label>
+                        </div>
+                  
+
+                            <div class="form-button mt-3">
+                                <button id="Ir_a_perfil" type="button" class="btn btn-primary">Iniciar Sesión</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de body inicio sesión -->
+</main>
+<!-- Fin de bloque -->
+
+<!-- Inicio de bloque -->
+<footer>
+    <hr>
+    <p>Autor: Hernán David Ortiz Jinez</p>
+    <p>Copyright©2022 Rou2Go S.L</p>
+</footer>
+
+</body>
+
+</html>

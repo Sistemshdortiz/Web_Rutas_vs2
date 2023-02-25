@@ -105,11 +105,11 @@ i {
 }
 
 #f1 {
-    background-color: rgb(117, 173, 175);
+    background-color: rgb(23, 78, 21);
     background-image: url("img/portada2.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    color: rgb(12, 85, 12);
+    color: rgb(221, 226, 221);
 }
 
 /* Estilo bonton */
