@@ -1,0 +1,145 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="/Bootstrap/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+  <title>Página de inicio</title>
+</head>
+
+<body>
+  <header class="container-fluid bg-light" id="">
+    <div class="container text-center  style=" width: 100%;">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo1.png" width="50" height="50" class="d-inline-block align-top" alt="Logo">
+      </a>
+      <div class="row">
+        <div class="col">
+          <a class="navbar-brand" href="Pagina inicio.html" id="btnB" title="Buscador">Buscador</a>
+        </div>
+        <div class="col">
+          <a class="navbar-brand" href="Pagina inicio.html" id="btnB" title="Buscador">Inicio Sesión</a>
+        </div>
+        <div class="col">
+          <a class="navbar-brand" href="Pagina inicio.html" id="btnB" title="Buscador">Contacta con nosotros</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <h1 align="center">Bienvenido a Rou2Go tu web de rutas por el campo</h1>
+
+  <main>
+    <select class="form-select" id="opciones">
+      <option value="default" selected="true" disabled>
+        <h1>Selecciona tus preferencias</h1>
+      </option>
+      <option value="R_familiar">Ruta familiar</option>
+      <option value="R_deporte">Ruta para deporte</option>
+    </select>
+
+    <!-- div para opciones de ruta en familia -->
+   
+      <form action="" class="opciones_de_RF">
+        <label for="">Duración de la ruta</label>
+        <input type="number" max="5" min="1" class="select">
+        <hr>
+        <label for="">Dificultad</label>
+        <select name="" id="" class="select">
+          <option value="">Fácil</option>
+          <option value="">Media</option>
+          <option value="">Dificil</option>
+        </select>
+        <hr>
+        <label for="">Con niños</label>
+        <select name="" id="" class="select">
+          <option value="">SI</option>
+          <option value="">No</option>
+        </select>
+        <hr>
+        <label for="">Estación del año</label>
+        <select name="" id="" class="select">
+          <option value="">Verano</option>
+          <option value="">Otoño</option>
+          <option value="">Primavera</option>
+          <option value="">Invierno</option>
+        </select>
+        <br>
+
+        <div class="d-flex justify-content-center align-items-center" id="divboton">
+          <button type="button" class="btn btn-secondary"
+            onclick="window.location.href='Book_page.html'">Enviar</button>
+        </div>
+
+      </form>
+ 
+
+    <!-- div para opciones de ruta para deporte -->
+
+    
+      <form action="" class="opciones_de_RD">
+        <label for="">Duración de la ruta</label>
+        <input type="number" max="5" min="1" class="select">
+        <hr>
+        <label for="">Dificultad</label>
+        <select name="" id="" class="select">
+          <option value="">Fácil</option>
+          <option value="">Media</option>
+          <option value="">Dificil</option>
+        </select>
+        <hr>
+        <label for="">Desnivel</label>
+        <select name="" id="" class="select">
+          <option value="">Bajo</option>
+          <option value="">Medio</option>
+          <option value="">Alto</option>
+        </select>
+
+        <hr>
+        <label for="">Estación del año</label>
+        <select name="" id="" class="select">
+          <option value="">Verano</option>
+          <option value="">Otoño</option>
+          <option value="">Primavera</option>
+          <option value="">Invierno</option>
+        </select>
+        <br>
+
+        <div class="d-flex justify-content-center align-items-center" id="divboton">
+          <button type="button" class="btn btn-secondary"
+            onclick="window.location.href='Book_page.html'">Enviar</button>
+        </div>
+
+      </form>
+
+  
+    <!-- html para las redes sociales -->
+    <div class="social">
+      <a href="#">
+        <div class="social-btn color-telegram">
+          <div class="icons8-telegram-app"></div>
+          <p class="order-1 google-font margin-telgram">Telegram</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="social-btn color-instagram">
+          <div class="icons8-instagram"></div>
+          <p class="order-1 google-font margin-instagram">Instagram</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="social-btn color-whatsapp">
+          <div class="icons8-whatsapp"></div>
+          <p class="order-1 google-font margin-instagram">WhatsApp</p>
+        </div>
+      </a>
+    </div>
+
+  </main>
+</body>
+
+</html>
