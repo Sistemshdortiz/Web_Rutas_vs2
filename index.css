@@ -27,21 +27,14 @@ main{
     text-align: center;
 }
 
-h1{
+#Mensaje_bienvenida{
     magin-top:50%;
     text-align: center;
     color: #549c04;
     font-family: 'Product Sans', sans-serif;
 }
 
-.buscador select {
-    text-align: center;
-    width: 40%;
-    height: 13%;
-    border-radius: 25px;
-    margin-left: 30vw;
-}
-
+/*Style de formulario con opciones de ruta familiar*/
 .opciones_de_RF {
     display: none;
     position: relative;
@@ -83,6 +76,8 @@ h1{
 #divboton{
     width: 100%;
 }
+
+/*Style de formulario con opciones de ruta deportiva*/
 
 .opciones_de_RD {
     display: none;
@@ -205,7 +200,7 @@ h1{
     background-size: 100%;
   }
 
-/*Style footer */
+/*Style del footer */
 footer{
     height: 10%;
     text-align: center;
