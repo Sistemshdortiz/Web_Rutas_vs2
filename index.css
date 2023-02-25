@@ -5,6 +5,9 @@
 
 body {
     background: linear-gradient(to bottom, #FFFFFF, #3c423e);
+    /* background-image: url("img/fondo_montañas.avif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     min-height: 100;
     overflow: auto;/* Antes estaba en hidden*/
@@ -128,7 +131,7 @@ main{
     border-top-right-radius: 30px;
     margin-bottom: 5px;
     position: relative;
-    left: -145px;
+    left: -120px;
     transition: left 1s;
   }
   .social-btn:hover {

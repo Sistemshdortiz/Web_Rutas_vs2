@@ -24,9 +24,12 @@ main{
     width: 350px;
     height: 500px;
     transition: transform 0.5s;
-    margin: 5% auto 0;
+    margin: 3% auto 0;
 }
-
+#titulo_libro{
+    /* margin: auto 10%; */
+    margin-top: 50%;
+}
 .paper {
     position: absolute;
     width: 100%;
@@ -108,3 +111,67 @@ i {
     background-repeat: no-repeat;
     color: rgb(12, 85, 12);
 }
+
+/* Estilo bonton */
+
+.button-container {
+    position: relative;
+    display: inline-block;
+  }
+button{
+    z-index: 10;
+    background:black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: #FFF;
+    font-size: 24PX;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12PX;
+}
+
+.button-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        green,rgb(62, 155, 206),blue,rgb(62, 155, 206),
+        green,rgb(62, 155, 206),blue,rgb(62, 155, 206)
+    );
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+@keyframes glowing{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+/*Style del footer */
+footer{
+    height: 10%;
+    text-align: center;
+    width: 100%;
+    color: white;
+    position: relative;
+    bottom: 0;
+    font-size: x-small;
+  }
+  footer p{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
