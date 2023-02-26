@@ -17,6 +17,10 @@ header{
     align-items: center;
     padding: auto;
 }
+
+#btnB:hover{
+  color: #0fc012;
+}
 main{
     width: 100%;
     max-height: 100vh;

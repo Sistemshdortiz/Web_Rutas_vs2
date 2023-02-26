@@ -14,10 +14,10 @@ header{
     align-items: center;
     padding: auto;
 }
+#btnB:hover{
+    color: #0fc012;
+  }
 
-main{
-    
-}
 /*Style para el LIBRO*/
 .book {
     position: relative;
