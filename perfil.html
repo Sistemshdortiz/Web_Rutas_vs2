@@ -1,0 +1,107 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="perfil.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="perfil.js"></script>
+    <title>Página de perfil del usuario</title>
+</head>
+
+<body>
+    <!-- Inicio del bloque header -->
+    <header class="container-fluid bg-light" id="">
+        <div class="container text-center  style=" width: 100%;">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo1.png" width="60" height="60" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <div class="row">
+                <div class="col">
+                    <a class="navbar-brand" href="index.html" id="btnB" title="Buscador">Buscador</a>
+                </div>
+                <div class="col">
+                    <a class="navbar-brand" href="inicio_sesion.html" id="btnB" title="Buscador">Inicio Sesión</a>
+                </div>
+                <div class="col">
+                    <a class="navbar-brand" href="#" id="btnB" title="Buscador">Contacta con nosotros</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Fin de bloque -->
+
+    <main>
+        <div class="container estilo_Container_principal">
+
+            <div class="row estilo_Subcontainer">
+                <!-- Este bloque ocupa 2/3 del espacio -->
+                <div class="col-md-8 bloques_Internos" id="bloque_izq">
+                    <div id="subbloque1" role="div con imagen decorativa de última excursión del usuario">
+
+                    </div>
+                    <!-- Bloque con imagen y datos del usuario -->
+                    <div class="container bg-success" id="bloque_img_data_user">
+                        <div class="float-start" style="width: 15%;"><img src="img/img_avatar_perfil.png"
+                                style="width: 100px;" alt="imagen de perfil del usuario">
+                        </div>
+                        <div class="float-end d-flex" style="width: 85%;">
+                            <ul class="list-unstyled">
+                                <li>
+                                    Usuario: Anónimo
+                                </li>
+                                <li>
+                                    Estado: Conectado
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Este bloque ocupa 1/3 del espacio -->
+                    <div class="row">
+                        <div class="col-md-12 bloques_Internos" id="bloque_dcha1">
+                            <!-- Este bloque ocupa todo el espacio horizontal del bloque 2 -->
+                            <div id="encabezados">
+                                <h2>Tu historial</h2>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    <a href="https://goo.gl/maps/JiZRPTS7APs67vi28" target="_blank"
+                                        title="link que redirige a la dirección de la ruta">Ruta Cuerda Larga por las
+                                        Cabezas de Hierro</a>
+                                </li>
+                                <li>
+                                    <a href="https://goo.gl/maps/dE4WHjzPuqsKyznGA" target="_blank"
+                                        title="link que redirige a la dirección de la ruta">Ruta Ascensión a
+                                        Peñalara</a>
+                                </li>
+                                <li>
+                                    <a href="https://goo.gl/maps/kEvAPr3sB8i25cnS8" target="_blank"
+                                        title="link que redirige a la dirección de la ruta">Ruta de las Dehesas de
+                                        Cercedilla y Siete Picos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 bloques_Internos" id="bloque_dcha1">
+                            <!-- Este bloque ocupa todo el espacio horizontal del bloque 2 -->
+                            <div id="encabezados">
+                                <h2>Amigos</h2>
+                            </div>
+                            <p>Contenido del bloque 2 - Abajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

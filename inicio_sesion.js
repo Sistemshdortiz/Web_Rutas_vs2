@@ -3,12 +3,12 @@ $(document).ready(function(){
     
     //asigno funcion a botón de inicio de sesion
     $('#Ir_a_perfil').on('click',function(){
-        window.location.href = "index.html";
+        window.location.href = "perfil.html";
     });
 
     //asigno función a botón de Registro
     $('#registro').on('click',function(){
-        window.location.href = "index.html";
+        window.location.href = "perfil.html";
     });
 
     //Asigno evento para mostrar el menu de registro en lugar del de inicio de sesión
