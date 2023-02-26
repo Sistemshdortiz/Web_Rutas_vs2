@@ -12,6 +12,7 @@ pagesFront.forEach(page => {
     page.addEventListener('click', goNextPage);
 });
 
+
 const pagesBack = document.querySelectorAll('.back');
 pagesBack.forEach(pagBack => {
     pagBack.addEventListener('click', goPrevPage);
@@ -35,7 +36,7 @@ function closeBook(isAtBeginning) {
     }
 }
 
-function goNextPage() {
+function goNextPage(event) {
     if (currentLocation < maxLocation) {
         switch (currentLocation) {
             case 1:
@@ -58,6 +59,12 @@ function goNextPage() {
         currentLocation++;
     }
 }
+const links = document.querySelectorAll('.front a');
+links.forEach(link => {
+  link.addEventListener('click', event => {
+    event.stopPropagation();
+  });
+});
 
 function goPrevPage() {
     if (currentLocation > 1) {

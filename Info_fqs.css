@@ -6,11 +6,13 @@
 body {
     background: linear-gradient(to bottom, #FFFFFF, #3c423e);
     /* background-image: url("img/fondo_montañas.avif"); */
+    /* background-color: whitesmoke; */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     min-height: 100;
-    overflow: auto;/* Antes estaba en hidden*/
+    overflow-y: visible;/* Antes estaba en hidden*/
+    overflow-x: hidden;
 }
 header{
     position:relative ;
@@ -20,30 +22,6 @@ header{
 #btnB:hover{
     color: #0fc012;
   }
-
-.estilo_Container_principal{
-    margin: 2%;
-    height: 100%;
-}
-.estilo_Subcontainer{
-    height: 100%;
-}
-#subbloque1{
-  height: 50%;
-  background-image: url('img/fondo_montañas.avif');
-  background-size: cover;
-  background-position: center;
-}
-
-#bloque_img_data_user{
-    padding: 2%;
-    height: 12%;
-}
-#encabezados{
-    background-color: rgb(25, 139, 40) !important;
-    height: fit-content;
-    width: 100%;
-}
 
 /*Style del footer */
 footer{

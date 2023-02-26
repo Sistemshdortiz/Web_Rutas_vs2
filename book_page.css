@@ -112,7 +112,11 @@ i {
     color: rgb(221, 226, 221);
 }
 
-/* Estilo bonton */
+#link_masInfo{
+    margin-top: 100%;
+}
+
+/* Estilo bonton del libro*/
 
 .button-container {
     position: relative;

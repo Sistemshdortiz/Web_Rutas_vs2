@@ -1,0 +1,160 @@
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Info_fqs.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="Info_fqs.js"></script>
+    <title>Preguntas frecuentes e información general</title>
+  </head>
+
+</head>
+
+<body>
+  <!-- Inicio del bloque header -->
+  <header class="container-fluid bg-light" id="">
+    <div class="container text-center  style=" width: 100%;">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo1.png" width="60" height="60" class="d-inline-block align-top" alt="Logo">
+      </a>
+      <div class="row">
+        <div class="col">
+          <a class="navbar-brand" href="index.html" id="btnB" title="Buscador"><b>Buscador</b> </a>
+        </div>
+        <div class="col">
+          <a class="navbar-brand" href="inicio_sesion.html" id="btnB" title="Buscador"><b>Inicio Sesión</b> </a>
+        </div>
+        <div class="col">
+          <a class="navbar-brand" href="#" id="btnB" title="Buscador"><b>Contacta con nosotros</b> </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Fin de bloque -->
+  <section class="container my-5">
+    <h2 class="text-center">Contactanos:</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Si tiene alguna duda o consulta, no dude en contactarnos a través de los siguientes medios:</p>
+        <ul>
+          <li>Teléfono: 915-456-789</li>
+          <li>Email: info@Rou2Go.com</li>
+          <li>Formulario de contacto: <a href="#">haga clic aquí</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <main class="container my-5">
+    <h1 class="text-center">Preguntas frecuentes e información general</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Preguntas frecuentes</h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  ¿Qué tipo de rutas ofrecen?
+                </button>
+              </h3>
+            </div>
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  ¿Qué ropa y equipo debo llevar?
+                </button>
+              </h3>
+            </div>
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  ¿Puedo llevar a mi perro en las rutas?
+                </button>
+              </h3>
+            </div>
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  ¿Cuánto tiempo duran las rutas?
+                </button>
+              </h3>
+            </div>
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  ¿Hay restricciones de edad para realizar las rutas?
+                </button>
+              </h3>
+            </div>
+            <div class="card-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  ¿Qué medidas de seguridad se implementan durante las rutas?
+                </button>
+              </h3>
+            </div>
+            <div class="card-header" id="headingTwo">
+              <h3 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Necesito experiencia previa para realizar las rutas?
+                </button>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <h2>Información general</h2>
+        <ul>
+          <li>Nuestro sitio web tiene como objetivo brindar información detallada y útil sobre rutas por el campo en
+            diferentes regiones.</li>
+          <li>Todas las rutas mencionadas en nuestro sitio web son gratuitas y se pueden realizar sin costo alguno.</li>
+          <li>Nos esforzamos por mantener toda la información actualizada y precisa, pero recomendamos verificar la
+            disponibilidad y condiciones de las rutas antes de realizar la visita.</li>
+          <li>No nos hacemos responsables de cualquier incidente o accidente que pudiera ocurrir durante la realización
+            de las rutas mencionadas en nuestro sitio web.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!-- Fin de bloque -->
+
+  <footer>
+    <hr>
+    <p>Autor: Hernán David Ortiz Jinez</p>
+    <p>Copyright©2022 Rou2Go S.L</p>
+  </footer>
+</body>
+
+</html>
