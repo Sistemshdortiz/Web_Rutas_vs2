@@ -39,6 +39,10 @@ header{
     padding: 2%;
     height: 12%;
 }
+.bloques_perfiles_amigos{
+    padding: 2%;
+    height: 25%; 
+}
 #encabezados{
     background-color: rgb(25, 139, 40) !important;
     height: fit-content;
