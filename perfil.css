@@ -9,8 +9,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    min-height: 100;
-    overflow: auto;/* Antes estaba en hidden*/
+    /* min-height: 100vh; */
+    height: auto;
+    overflow-y: auto;/* Antes estaba en hidden*/
+    overflow-x: hidden;
 }
 header{
     position:relative ;
@@ -22,14 +24,17 @@ header{
   }
 
 .estilo_Container_principal{
-    margin: 2%;
+    margin-top: 2%;
+    width: 100%;
     height: 100%;
+    align-content: center;
 }
 .estilo_Subcontainer{
     height: 100%;
+    width: 100% !important;
 }
 #subbloque1{
-  height: 50%;
+  height: 70%;
   background-image: url('img/fondo_montañas.avif');
   background-size: cover;
   background-position: center;
@@ -49,6 +54,14 @@ header{
     width: 100%;
 }
 
+.fondo-verde-fosforo {
+    background-color: #00FF00;
+    border-radius: 5px;
+  }
+  .fondo-rojo-fosforo {
+    background-color: rgb(120, 34, 34);
+    border-radius: 5px;
+  }  
 /*Style del footer */
 footer{
     height: 10%;
