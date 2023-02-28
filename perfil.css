@@ -4,8 +4,8 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #FFFFFF, #3c423e);
-    /* background-image: url("img/fondo_montañas.avif"); */
+    background-color: whitesmoke;
+  
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
