@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -15,20 +15,20 @@
 <body>
 
   <!-- Inicio del bloque header -->
-  <header class="container-fluid" id="">
-    <div class="container text-center  style=" width: 100%;">
+  <header class="container-fluid">
+    <div class="container text-center  style="width: 100%;">
       <a class="navbar-brand" href="index.html">
-        <img src="img/logo_final-removebg-preview.png" width="60" height="60" class="d-inline-block align-top" alt="Logo">
+        <img src="img/logo_final-removebg-preview.png" width="60" height="60" class="d-inline-block align-top" title="Enlace que redirige a la página de inicio" alt="Logotipo de la empresa">
       </a>
       <div class="row">
         <div class="col">
-          <a class="navbar-brand" href="index.html" id="btnB" title="Buscador"><b>Buscador</b> </a>
+          <a class="navbar-brand" href="index.html" id="btnB" title="Botón que redirige al buscador"><b>Buscador</b> </a>
         </div>
         <div class="col">
-          <a class="navbar-brand" href="inicio_sesion.html" id="btnB" title="Buscador"><b>Inicio Sesión</b> </a>
+          <a class="navbar-brand" href="inicio_sesion.html" id="btnB" title="Botón que redirige a inicio de sesión"><b>Inicio Sesión</b> </a>
         </div>
         <div class="col">
-          <a class="navbar-brand" href="Info_fqs.html" id="btnB" title="Buscador"><b>Contacta con nosotros</b> </a>
+          <a class="navbar-brand" href="Info_fqs.html" id="btnB" title="Botón que redirige a página de contacto"><b>Contáctanos</b> </a>
         </div>
       </div>
     </div>
@@ -36,19 +36,19 @@
   <!-- Fin de bloque -->
   <h1 id="Mensaje_bienvenida">Bienvenido a Rou2Go tu web de rutas por el campo</h1>
   <main>
-    <select class="form-select" id="opciones">
-      <option value="default" selected="true" disabled>
-        <h1>Selecciona tus preferencias</h1>
+    <select class="form-select" name="preferencias" id="opciones" aria-label="Preferencias de ruta" title="Abrir desplegable para escoger tipo de ruta">
+      <option value="default" selected="true"  disabled>
+        Selecciona tus preferencias
       </option>
-      <option value="R_familiar">Ruta familiar</option>
-      <option value="R_deporte">Ruta para deporte</option>
+      <option value="R_familiar" title="Opción de ruta familiar">Ruta familiar</option>
+      <option value="R_deporte" title="Opción de ruta deportiva">Ruta para deporte</option>
     </select>
 
     <!-- div para opciones de ruta en familia -->
    
       <form action="" class="opciones_de_RF">
         <label for="">Duración de la ruta</label>
-        <input type="number" max="5" min="1" class="select">
+        <input type="number" max="5" min="1" class="select" title="Seleccione las horas de duración de la ruta">
         <hr>
         <label for="">Dificultad</label>
         <select name="" id="" class="select">
@@ -85,7 +85,7 @@
     
       <form action="" class="opciones_de_RD">
         <label for="">Duración de la ruta</label>
-        <input type="number" max="5" min="1" class="select">
+        <input type="number" max="5" min="1" class="select" title="Seleccione el número de horas de duración de la ruta">
         <hr>
         <label for="">Dificultad</label>
         <select name="" id="" class="select">
@@ -122,19 +122,19 @@
     <!-- html para las redes sociales -->
     <div class="social">
       <a href="#">
-        <div class="social-btn color-telegram">
+        <div class="social-btn color-telegram" title="Enlace para ir a telegram de la web">
           <div class="icons8-telegram-app"></div>
           <p class="order-1 google-font margin-telgram">Telegram</p>
         </div>
       </a>
       <a href="#">
-        <div class="social-btn color-instagram">
+        <div class="social-btn color-instagram" title="Enlace para ir a Instagram de la web">
           <div class="icons8-instagram"></div>
           <p class="order-1 google-font margin-instagram">Instagram</p>
         </div>
       </a>
       <a href="#">
-        <div class="social-btn color-whatsapp">
+        <div class="social-btn color-whatsapp" title="Enlace para ir WhatsApp de la web">
           <div class="icons8-whatsapp"></div>
           <p class="order-1 google-font margin-instagram">WhatsApp</p>
         </div>

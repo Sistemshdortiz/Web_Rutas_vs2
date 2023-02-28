@@ -20,18 +20,18 @@
     <header class="container-fluid " id="">
         <div class="container text-center  style='width: 100%;'">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo_final-removebg-preview.png" width="60" height="60" class="d-inline-block align-top" alt="Logo">
+                <img src="img/logo_final-removebg-preview.png" title="Logo enlace que redirige a página principal" width="60" height="60" class="d-inline-block align-top" alt="Logo">
             </a>
             <div class="row">
                 <div class="col">
-                    <a class="navbar-brand" href="index.html" id="btnB" title="Buscador"><b>Buscador</b></a>
+                    <a class="navbar-brand" href="index.html" id="btnB" title="Botón que redirige a página principal"><b>Buscador</b></a>
                 </div>
                 <div class="col">
-                    <a class="navbar-brand" href="inicio_sesion.html" id="btnB" title="Buscador"><b>Inicio
+                    <a class="navbar-brand" href="inicio_sesion.html" id="btnB" title="Botón que redirige a Inicio de sesión"><b>Inicio
                             Sesión</b></a>
                 </div>
                 <div class="col">
-                    <a class="navbar-brand" href="Info_fqs.html" id="btnB" title="Buscador"><b>Contacta con
+                    <a class="navbar-brand" href="Info_fqs.html" id="btnB" title="Botón que redirige a página contáctanos"><b>Contacta con
                             nosotros</b></a>
                 </div>
             </div>
@@ -50,16 +50,12 @@
                             <form class="requires-validation" novalidate>
 
                                 <div class="col-md-12">
-                                    <input class="form-control" type="text" name="name" placeholder="Nombre" required>
-                                    <div class="valid-feedback">Username field is valid!</div>
-                                    <div class="invalid-feedback">Username field cannot be blank!</div>
+                                    <input class="form-control" type="text" name="name" title="Introuzca nombre" placeholder="Nombre" required aria-describedby="Introduzca nombre">
                                 </div>
 
                                 <div class="col-md-12">
-                                    <input class="form-control" type="email" name="email" placeholder="Dirección email"
+                                    <input class="form-control" type="email" name="email" title="Introduza email" placeholder="Dirección email" aria-describedby="Introduzca su mail"
                                         required>
-                                    <div class="valid-feedback">Email field is valid!</div>
-                                    <div class="invalid-feedback">Email field cannot be blank!</div>
                                 </div>
 
                                 <div class="col-md-12">
@@ -75,7 +71,7 @@
 
                                 <div class="col-md-12">
                                     <input class="form-control" type="password" name="password" placeholder="Password"
-                                        required>
+                                        required title="Espacio para poner la contraseña">
                                 </div>
 
 
@@ -103,7 +99,7 @@
 
 
                                 <div class="form-button mt-3">
-                                    <button id="registro" type="button" class="btn btn-primary">Registrate</button>
+                                    <button id="registro" type="button" title="Boton que envía los datos para registrarse" class="btn btn-primary">Registrate</button>
                                 </div>
                             </form>
                         </div>
@@ -125,12 +121,12 @@
 
                                 <div class="col-md-12">
                                     <input class="form-control" type="text" name="name"
-                                        placeholder="Ingresa tu usuario o email" required>
+                                        placeholder="Ingresa tu usuario o email" required title="Introduzca su email o usuario">
                                 </div>
 
                                 <div class="col-md-12">
                                     <input class="form-control" type="password" name="password" placeholder="Contraseña"
-                                        required>
+                                        required title="Espacio para poner contraseña">
                                 </div>
 
                                 <div class="form-check">
@@ -141,7 +137,7 @@
 
 
                                 <div class="form-button mt-3">
-                                    <button id="Ir_a_perfil" type="button" class="btn btn-primary">Iniciar
+                                    <button id="Ir_a_perfil" type="button" title="Boton que envia los datos introducidos para ser validados" class="btn btn-primary">Iniciar
                                         Sesión</button>
                                 </div>
                             </form>
