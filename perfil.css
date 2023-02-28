@@ -50,18 +50,27 @@ header{
     height: 25%; 
 }
 #encabezados{
-    background-color: rgb(25, 139, 40) !important;
+    background-color: #947e5e !important;
     height: fit-content;
     width: 100%;
 }
 
 .fondo-verde-fosforo {
     background-color: #00FF00;
-    border-radius: 5px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    line-height: 30px;
+    display: inline-block;
+
   }
   .fondo-rojo-fosforo {
     background-color: rgb(120, 34, 34);
-    border-radius: 5px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    line-height: 30px;
+    display: inline-block;
   }  
 /*Style del footer */
 footer{

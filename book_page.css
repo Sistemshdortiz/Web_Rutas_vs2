@@ -167,6 +167,23 @@ button{
         background-position: 0 0;
     }
 }
+/* imagenes de paginas */
+#b1{
+    background-image: url(img/pag1.jpg);
+    background-size: cover;
+}
+#b2{
+    background-image: url(img/pag2.jpg);
+    background-size: cover;
+}
+#f2{
+    background-image: url(img/pag3.jpg);
+    background-size: cover; 
+}
+#f3{
+    background-image: url(img/pag3.jpg);
+    background-size: cover;  
+}
 
 /*Style del footer */
 footer{
