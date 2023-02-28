@@ -4,7 +4,8 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #FFFFFF, #3c423e);
+    /* background: linear-gradient(to bottom, #FFFFFF, #3c423e); */
+    background-color: whitesmoke;
     width: 100vw;
     min-height: 100;
     overflow: auto;/* Antes estaba en hidden*/
@@ -13,10 +14,12 @@ header{
     position:relative ;
     align-items: center;
     padding: auto;
+    background-color: #549c04;
+
 }
 #btnB:hover{
-    color: #0fc012;
-  }
+    color: rgb(237, 237, 237);
+}
 
 /*Style para el LIBRO*/
 .book {
@@ -170,7 +173,7 @@ footer{
     height: 10%;
     text-align: center;
     width: 100%;
-    color: white;
+    color: #549c04;
     position: relative;
     bottom: 0;
     font-size: x-small;
